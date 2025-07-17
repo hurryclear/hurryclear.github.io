@@ -1,0 +1,55 @@
+.github-activity {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: var(--radius);
+    padding: 24px;
+    margin: 24px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.github-activity:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    border-color: #58a6ff;
+    transform: translateY(-2px);
+}
+
+.github-activity img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    background: #0d1117;
+    padding: 16px;
+    border: 1px solid #30363d;
+}
+
+.activity-caption {
+    color: #7d8590;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.activity-caption strong {
+    color: #f0f6fc;
+    font-weight: 600;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .github-activity {
+        padding: 16px;
+        margin: 16px 0;
+    }
+    
+    .github-activity img {
+        padding: 12px;
+    }
+    
+    .activity-caption {
+        font-size: 13px;
+    }
+}

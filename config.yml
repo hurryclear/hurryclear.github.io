@@ -68,7 +68,7 @@ params:
     profileMode:
           enabled: true
           title: Huo Jiang
-          subtitle: "Hey there! Welcome to my homepage! <br> <br> A computer science student at the University of Leipzig. <br> <br> **Looking for a job to start my carrier**"
+          subtitle: "Hi there! Welcome to my homepage! <br> <br> A computer science student at the University of Leipzig. <br> <br> **Looking for a job to start my carrier**"
           imageUrl: "profil-avatar.png"
           imageWidth: 160
           imageHeight: 160
