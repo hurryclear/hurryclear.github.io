@@ -95,8 +95,8 @@ params:
             #   url: archive/
 
     socialIcons:
-        - name: CV
-          url: 
+        # - name: CV
+        #   url: 
         # - name: Email
         #   url: mailto:igelfeld@regensburg.edu
         - name: GitHub
