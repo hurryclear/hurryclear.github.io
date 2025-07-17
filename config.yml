@@ -96,7 +96,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: 
         # - name: Email
         #   url: mailto:igelfeld@regensburg.edu
         - name: GitHub
