@@ -18,15 +18,18 @@ menu:
         - name: Projects
           url: projects/
           weight: 2
-        - name: Language
-          url: language/
-          weight: 4
         - name: Tools
           url: tools/
           weight: 3
+        - name: Statistics
+          url: statistics/
+          weight: 4
+        - name: Language
+          url: language/
+          weight: 5
         - name: Blog
           url: blog/
-          weight: 5
+          weight: 6
         # - name: Books
         #   url: books/
         #   weight: 5 
@@ -81,6 +84,8 @@ params:
               url: language/
             - name: Tools
               url: tools/
+            - name: Statistics
+              url: statistics/
             - name: Blog
               url: blog/
             # - name: Papers

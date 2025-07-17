@@ -128,9 +128,13 @@
 
 .entry-cover img {
     border-radius: var(--radius);
-    width: 100%;
+    width: auto;
     height: auto;
+    max-height: 180px;
+    max-width: 250px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 .entry-main {

@@ -70,10 +70,27 @@ body:not(.dark) #sun {
 #menu a {
     font-size: var(--headersize);
     font-weight: 400;
+    padding: 4px 8px;
+    border-radius: var(--radius);
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+#menu a:hover {
+    background: var(--entry);
+    border: 1px solid var(--darkcolor);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #menu .active {
     border-bottom: 2px solid var(--darkcolor);
+}
+
+#menu .active:hover {
+    border-bottom: 2px solid var(--darkcolor);
+    border: 1px solid var(--darkcolor);
+    border-bottom-width: 2px;
 }
 
 .lang-switch li,
