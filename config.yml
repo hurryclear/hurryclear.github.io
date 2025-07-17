@@ -12,32 +12,45 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: About
+          url: about/
+          weight: 1
+        - name: Projects
+          url: projects/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Language
+          url: language/
+          weight: 4
+        - name: Tools
+          url: tools/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          url: blog/
+          weight: 5
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        # - name: Papers
+        #   url: papers/
+        #   weight: 2
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "A personal customized homepage of Huo Jiang hosting projects, tools, blogs and self-introduction"
+    author: Huo Jiang
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: true
-    disableThemeToggle: true
+    hideFooter: false
+    disableThemeToggle: false
     ShowShareButtons: false
-    ShowReadingTime: false
+    ShowReadingTime: true
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
@@ -46,7 +59,7 @@ params:
     ShowAllPagesInArchive: false
     MainSections: ["books","courses","papers","data"]
     ShowToc: false
-    disableScrollToTop: true
+    disableScrollToTop: false
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
@@ -55,8 +68,7 @@ params:
     profileMode:
           enabled: true
           title: Huo Jiang
-          # subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          subtitle: "A computer science student at the University of Leipzig."
+          subtitle: "Hey there! Welcome to my homepage! <br> <br> A computer science student at the University of Leipzig. <br> <br> **Looking for a job to start my carrier**"
           imageUrl: "profil-avatar.png"
           imageWidth: 160
           imageHeight: 160
@@ -65,6 +77,10 @@ params:
               url: about/
             - name: Projects
               url: projects/
+            - name: Language
+              url: language/
+            - name: Tools
+              url: tools/
             - name: Blog
               url: blog/
             # - name: Papers
@@ -75,20 +91,18 @@ params:
             #   url: books/
             # - name: Courses
             #   url: courses/
-            # - name: Tags
-            #   url: tags/
             # - name: Archive
             #   url: archive/
 
     socialIcons:
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
+        # - name: Email
+        #   url: mailto:igelfeld@regensburg.edu
         - name: GitHub
-          url: https://github.com/pmichaillat
+          url: https://github.com/hurryclear
         - name: Linkedin
-          url: www.linkedin.com/in/hurryclear
+          url: https://linkedin.com/in/hurryclear
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
         # - name: Zoom
@@ -109,10 +123,10 @@ params:
     assets:
         disableScrollBarStyle: true
     cover:
-        hiddenInList: false
-        hiddenInSingle: true
+        hiddenInList: false # cover picture merge into list
+        hiddenInSingle: true 
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Huo Jiang"
       icon: favicon.ico
       iconHeight: 18
 
