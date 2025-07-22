@@ -1,10 +1,9 @@
 ---
 title: "ML Data Visualization"
 date: 2025-02-01
-aliases: 
 tags: ["Python", "Machine Learning", "Data Visualization"]
 author: "hurryclear"
-description: "" 
+description: "Interactive ML visualization dashboards with Plotly Dash and scikit-learn"
 summary: "A collection of 4 interactive ML visualization applications developed for the \"Interactive Data Visualization Analysis\" course at University Leipzig, Germany. Each project demonstrates different machine learning algorithms through real-time interactive dashboards."
 cover:
     image: "assets/cover-image.png"
