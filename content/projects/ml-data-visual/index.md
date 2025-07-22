@@ -18,7 +18,6 @@ disableAnchoredHeadings: false
 hideSummary: false
 weight: 2
 ---
-# ML Data Visualization Suite
 
 Interactive machine learning visualization dashboards built with **Plotly Dash** and **scikit-learn**.
 
