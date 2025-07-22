@@ -12,11 +12,11 @@ cover:
     relative: true
 editPost:
     URL: "https://github.com/hurryclear/swtp-2023-04.git"
-    Text: "Git Repo"
+    Text: "Github Repository"
 showToc: true
 disableAnchoredHeadings: false
 hideSummary: false
-weight: 2
+weight: 3
 ---
 
 

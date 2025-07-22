@@ -12,7 +12,7 @@ cover:
     relative: true
 editPost:
     URL: "https://github.com/hurryclear/Yummy-spicy"
-    Text: "Git Repo"
+    Text: "Github Repository"
 showToc: true
 disableAnchoredHeadings: false
 hideSummary: false
