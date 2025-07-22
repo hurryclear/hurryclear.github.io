@@ -1,0 +1,112 @@
+/* Sticky Header CSS */
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure header stays above other content */
+    background: var(--theme);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Add blur effect for modern look */
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Enhanced nav styling for sticky header - preserve original layout */
+.nav {
+    background: transparent; /* Remove duplicate background */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Keep original space-between layout */
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    line-height: var(--header-height);
+    padding: 0; /* Remove extra padding to preserve original spacing */
+    position: relative;
+}
+
+/* Ensure smooth transition when header becomes sticky */
+.header .nav {
+    transition: all 0.3s ease;
+}
+
+/* Add subtle animation on scroll */
+.header.scrolled {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Adjust main content to account for sticky header */
+main {
+    margin-top: 0; /* Reset any existing margin */
+}
+
+/* For profile mode (homepage), ensure proper spacing */
+.profile {
+    padding-top: calc(var(--header-height) + 2rem);
+}
+
+/* Ensure proper spacing for post content */
+.post-content {
+    padding-top: 1rem;
+}
+
+/* Preserve original logo and theme toggle positioning */
+.logo,
+#menu {
+    display: flex;
+    margin: auto var(--gap); /* Keep original margin */
+}
+
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    margin: auto var(--gap); /* Keep original margin */
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 768px) {
+    .header {
+        position: sticky; /* Keep sticky on mobile too */
+        top: 0;
+    }
+    
+    .nav {
+        justify-content: space-between; /* Maintain layout on mobile */
+    }
+    
+    /* Keep original mobile spacing */
+    .logo,
+    #menu {
+        margin: auto var(--gap);
+    }
+    
+    .theme-toggle-container {
+        margin: auto var(--gap);
+    }
+}
+
+/* Dark mode adjustments */
+body.dark .header {
+    border-bottom-color: var(--border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .header.scrolled {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth scroll adjustment for anchor links with sticky header */
+html {
+    scroll-padding-top: calc(var(--header-height) + 1rem);
+}
+
+/* Special adjustments for archive and list pages */
+.archive-year,
+.archive-posts {
+    scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
+/* Ensure search input doesn't get hidden behind sticky header */
+.search-input {
+    position: relative;
+    z-index: 100;
+}
