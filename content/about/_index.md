@@ -4,8 +4,8 @@
 - Looking for bachelor thesis topic
 - Looking for job
 
-# City
+# Favorite City
 
-- Leipzig
-- Xi-an
+- Leipzig: energetic
+- Xi-an: historic
 
