@@ -4,5 +4,10 @@ description: ""
 ---
 
 # 2025
+## August
+
+
 ## July
-- Build my homepage 
+
+- Confusion about looking job and starting carrier
+- Building my homepage 
