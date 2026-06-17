@@ -1,4 +1,4 @@
-baseURL: "https://hurryclear.github.io" 
+baseURL: "https://hurryclear.github.io"
 title: Huo Jiang
 theme: PaperMod
 
@@ -8,141 +8,142 @@ pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: About
-          url: about/
-          weight: 1
-        - name: Projects
-          url: projects/
-          weight: 2
-        - name: Tools
-          url: tools/
-          weight: 3
-        - name: Statistics
-          url: statistics/
-          weight: 4
-        - name: Language
-          url: language/
-          weight: 5
-        - name: Blog
-          url: blog/
-          weight: 6
-        # - name: Books
-        #   url: books/
-        #   weight: 5 
-        # - name: Papers
-        #   url: papers/
-        #   weight: 2
-        # - name: Courses
-        #   url: courses/
-        #   weight: 3
-        # - name: Data
-        #   url: data/
-        #   weight: 4 
+  main:
+    - name: About
+      url: about/
+      weight: 1
+    - name: Projects
+      url: projects/
+      weight: 2
+    - name: Tools
+      url: tools/
+      weight: 3
+    - name: Statistics
+      url: statistics/
+      weight: 4
+    - name: Language
+      url: language/
+      weight: 5
+    - name: Blog
+      url: blog/
+      weight: 6
+    # - name: Books
+    #   url: books/
+    #   weight: 5
+    # - name: Papers
+    #   url: papers/
+    #   weight: 2
+    # - name: Courses
+    #   url: courses/
+    #   weight: 3
+    # - name: Data
+    #   url: data/
+    #   weight: 4
 
 params:
-    # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    description: "A personal customized homepage of Huo Jiang hosting projects, tools, blogs and self-introduction"
-    author: Huo Jiang
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: false
-    ShowShareButtons: false
-    ShowReadingTime: true
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
-    ShowToc: false
-    disableScrollToTop: false
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Huo Jiang
-          subtitle: "Hi there! Welcome to my homepage! <br><br> A curious Computer Science student on a journey through tech. <br><br> Excited to kick off my career—open to job opportunities!"
-          imageUrl: "profil-avatar.png"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: About
-              url: about/
-            - name: Projects
-              url: projects/
-            - name: Language
-              url: language/
-            - name: Tools
-              url: tools/
-            - name: Statistics
-              url: statistics/
-            - name: Blog
-              url: blog/
-            # - name: Papers
-            #   url: papers/
-            # - name: Data
-            #   url: data/
-            # - name: Books
-            #   url: books/
-            # - name: Courses
-            #   url: courses/
-            # - name: Archive
-            #   url: archive/
+  # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+  description: "A personal customized homepage of Huo Jiang hosting projects, tools, blogs and self-introduction"
+  author: Huo Jiang
+  # googleAnalyticsID: "G-XXXXX"
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: true
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["books", "courses", "papers", "data"]
+  ShowToc: false
+  disableScrollToTop: false
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Huo Jiang
+    subtitle: "Hi there! Welcome to my homepage! <br><br> A curious Computer Science student on a journey through tech. <br><br> Excited to kick off my career—open to job opportunities!"
+    imageUrl: "profil-avatar.png"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: About
+        url: about/
+      - name: Projects
+        url: projects/
+      # - name: Language
+      #   url: language/
+      - name: Tools
+        url: tools/
+      # - name: Statistics
+      #   url: statistics/
+      - name: Blog
+        url: blog/
+      # - name: Papers
+      #   url: papers/
+      # - name: Data
+      #   url: data/
+      # - name: Books
+      #   url: books/
+      # - name: Courses
+      #   url: courses/
+      # - name: Archive
+      #   url: archive/
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        # - name: Email
-        #   url: mailto:igelfeld@regensburg.edu
-        - name: GitHub
-          url: https://github.com/hurryclear
-        - name: Linkedin
-          url: https://linkedin.com/in/hurryclear
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
-        # - name: Google Scholar
-        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
-        # - name: Twitter
-        #   url: https://x.com/pmichaillat
-        # - name: Bluesky
-        #   url: https://bsky.app/profile/pmichaillat.bsky.social
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    # - name: Email
+    #   url: mailto:igelfeld@regensburg.edu
+    - name: GitHub
+      url: https://github.com/hurryclear
+    - name: Linkedin
+      url: https://linkedin.com/in/hurryclear
+    # - name: YouTube
+    #   url: https://www.youtube.com/@pmichaillat
+    # - name: Zoom
+    #   url: https://www.zoom.us/my/igelfeld
+    # - name: Location
+    #   url: location/
+    # - name: Office Hours
+    #   url: officehours/
+    # - name: Google Scholar
+    #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+    # - name: Substack
+    #   url: https://pmichaillat.substack.com
+    # - name: Twitter
+    #   url: https://x.com/pmichaillat
+    # - name: Bluesky
+    #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false # cover picture merge into list
-        hiddenInSingle: true 
-    label:
-      text: "Huo Jiang"
-      icon: favicon.ico
-      iconHeight: 18
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false # cover picture merge into list
+    hiddenInSingle: true
+  label:
+    text: "Huo Jiang"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+
