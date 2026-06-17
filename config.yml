@@ -21,12 +21,12 @@ menu:
     - name: Tools
       url: tools/
       weight: 3
-    - name: Statistics
-      url: statistics/
-      weight: 4
-    - name: Language
-      url: language/
-      weight: 5
+    # - name: Statistics
+    #   url: statistics/
+    #   weight: 4
+    # - name: Language
+    #   url: language/
+    #   weight: 5
     - name: Blog
       url: blog/
       weight: 6
@@ -71,7 +71,7 @@ params:
   profileMode:
     enabled: true
     title: Huo Jiang
-    subtitle: "Hi there! Welcome to my homepage! <br><br> A curious Computer Science student on a journey through tech. <br><br> Excited to kick off my career—open to job opportunities!"
+    subtitle: "I am a graduate in computer science with a background in engineering and hands-on experience in software development and NLP research. During my studies I have developed my skills in building full-stack web applications and data processing pipelines, with coursework and projects spanning databases, machine learning, and software engineering. Notably, in my thesis I worked with the Webis Group on building a new question answering dataset."
     imageUrl: "profil-avatar.png"
     imageWidth: 160
     imageHeight: 160
